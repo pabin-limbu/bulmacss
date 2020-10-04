@@ -8,6 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
   </head>
+  <div>
   <body>
     <nav class="navbar has-shadow is-white">
       <!--Logo / brand-->
@@ -20,6 +21,11 @@
             class="py-2 px-2"
           />
         </a>
+        <a href="#" class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
       </div>
 
       <div class="navbar-menu" id="nav-links">
@@ -29,5 +35,20 @@
         </div>
       </div>
     </nav>
+    <!-- Bread crumbs-->
+    <div class="section pt-4 pb-0">
+      <nav class="breadcrumb has-arrow-separator">
+        <ul class="container">
+          <li><a href="#" class="has-text-grey">pabin 1</a></li>
+          <li><a href="#" class="has-text-grey">pabin 2</a></li>
+          <li class="is-active"><a href="#">pabin 3</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+  </div>
+    <script src="index.js"></script>
   </body>
 </html>
